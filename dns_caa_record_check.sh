@@ -7,7 +7,8 @@ CYAN='\033[0;36m'
 NC='\033[0m' # No Color
 
 # Function to check CAA for a single domain
-check_caa() {
+check_caa() 
+{
     DOMAIN=$1
     echo -e "${CYAN}🔍 Checking CAA for: $DOMAIN${NC}"
     CAA_RECORD=$(dig CAA "$DOMAIN" +short)
