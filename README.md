@@ -1,9 +1,7 @@
----
-
-### 📄 `README.md` – CAA Record Checker
+# 🔍 CAA Record Checker
 
 ````markdown
-# 🔐 check_caa.sh - CAA DNS Record Checker
+# 🔐 dns_caa_record_check - CAA DNS Record Checker
 
 This is a simple and efficient Bash script to check the **CAA (Certification Authority Authorization)** DNS records for:
 
@@ -40,13 +38,13 @@ sudo apt install dnsutils
 ### 1. Check a Single Domain:
 
 ```bash
-./check_caa.sh example.com
+./dns_caa_record_check example.com
 ```
 
 ### 2. Check Multiple Subdomains:
 
 ```bash
-./check_caa.sh -f subdomains.txt
+./dns_caa_record_check -f subdomains.txt
 ```
 
 #### 📂 `subdomains.txt` Example:
@@ -72,30 +70,14 @@ mail.example.com
 
 ---
 
-## 📁 File Structure
+## 📝 License
 
-```
-.
-├── check_caa.sh       # The main Bash script
-└── README.md          # This file
-```
-
----
-
-## 📜 License
-
-This script is provided for educational and security research purposes. Use responsibly.
+This project is licensed under the [LICENSE](https://github.com/iambuvanesh/dns_caa_record_check/blob/main/LICENSE).
 
 ---
 
 ## 👨‍💻 Author
 
-Developed by \[Your Name or Handle]
+Maintained by [@iambuvanesh](https://github.com/iambuvanesh) – Cybersecurity Researcher 🕵️‍♂️
 
-```
-
-Let me know if you'd like to include:
-- Auto export results to a file
-- Support for `iodef` parsing
-- GitHub badge or logo support
-```
+---
