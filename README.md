@@ -35,13 +35,13 @@ sudo apt install dnsutils
 ### 1. Check a Single Domain:
 
 ```bash
-./dns_caa_record_check example.com
+./dns_caa_record_check.sh example.com
 ```
 
 ### 2. Check Multiple Subdomains:
 
 ```bash
-./dns_caa_record_check -f subdomains.txt
+./dns_caa_record_check.sh -f subdomains.txt
 ```
 
 #### 📂 `subdomains.txt` Example:
