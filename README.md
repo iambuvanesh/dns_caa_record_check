@@ -1,4 +1,6 @@
-# Dns_Caa_Record_check
+---
+
+### 📄 `README.md` – CAA Record Checker
 
 ````markdown
 # 🔐 check_caa.sh - CAA DNS Record Checker
