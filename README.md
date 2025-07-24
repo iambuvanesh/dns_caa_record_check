@@ -35,7 +35,7 @@ sudo apt install dnsutils
 ```bash
 git clone https://github.com/iambuvanesh/dns_caa_record_check.git
 cd dns_caa_record_check
-chmod +x spf_dkim_dmarc_check.sh
+chmod +x dns_caa_record_check.sh
 ````
 
 ---
