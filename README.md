@@ -1,12 +1,9 @@
-# 🔍 CAA Record Checker
-
-````markdown
-# 🔐 dns_caa_record_check - CAA DNS Record Checker
+# 🔍 DNS CAA Record Checker
 
 This is a simple and efficient Bash script to check the **CAA (Certification Authority Authorization)** DNS records for:
 
-- A single domain
-- Multiple subdomains (from a file)
+- A **single domain**
+- **Multiple subdomains** (from a file)
 
 CAA records restrict which Certificate Authorities (CAs) are allowed to issue certificates for a domain — an important security control for preventing unauthorized SSL/TLS certificates.
 
